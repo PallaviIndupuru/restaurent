@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,300;1,500&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("myproj.png");
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    border-radius: 90%;
+    width: 120px;
+    height: 70px;
+}
+
+.top {
+    display: flex;
+    width: 100%;
+
+}
+
+li {
+    list-style: none;
+    margin: 0px 45px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 12px;
+    font-size: 16px;
+    margin-left: 98px;
+
+}
+
+.under {
+    margin: 0px 55px;
+    text-decoration: none;
+    color: white;
+}
+
+li:hover {
+
+    color: blue;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-underline-position: below;
+
+}
+
+.under:hover {
+
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 4px 18px;
+    color: white;
+}
+
+.content {
+    margin-left: 100px;
+    align-items: center;
+    margin-top: 150px;
+}
+
+p:nth-child(1) {
+    background-color: #1a1917;
+    color: white;
+    display: inline;
+    padding: 5px 10px;
+    font-size: 18px;
+
+
+}
+
+h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 70px;
+    color: green;
+}
+
+.foodplace {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 28px;
+    font-weight: 900px;
+
+}
+
+p:nth-child(4) {
+    width: 400px;
+    font-size: 16px;
+    margin: 20px 0px;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    background-color: green;
+    border-radius: 16px;
+    color: white;
+    font-size: 14px;
+
+    letter-spacing: 2px;
+    border: none;
+
+}
+
+button:hover {
+    border: 1px rgb(0, 0, 0) solid;
+    color: black;
+
+
+}
